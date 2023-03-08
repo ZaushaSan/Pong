@@ -19,7 +19,7 @@ bool Game::init(){
         printf("404 %s\t", TTF_GetError());
         success = false;
     }
-    Loader::gFont = TTF_OpenFont("C:/Users/irina/Desktop/Projects/Pong/src/IpanemaSecco-463W.ttf", 60);
+    Loader::gFont = TTF_OpenFont("src/IpanemaSecco-463W.ttf", 60);
     
     return success;
 }
